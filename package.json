@@ -1,0 +1,29 @@
+{
+  "name": "cloud-based-smart-parking-system",
+  "version": "1.0.0",
+  "description": "Full-stack College-level Cloud-Based Smart Parking Management System",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "start": "node backend/server.js",
+    "seed": "npm --prefix backend run seed",
+    "create-admin": "npm --prefix backend run create-admin",
+    "verify": "node backend/scripts/verifyAdminDashboard.js"
+  },
+  "keywords": [
+    "smart-parking",
+    "mern-stack",
+    "iot-parking",
+    "college-project",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "Smart Parking Team",
+  "license": "ISC"
+}
